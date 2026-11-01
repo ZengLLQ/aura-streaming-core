@@ -1,0 +1,16 @@
+[package]
+name = "aura_streaming_core"
+version = "1.0.0"
+authors = []
+
+[addresses]
+aura_stream = "0xCAFE"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "aptos-release-v1.16"
+subdir = "aptos-framework"
+
+[dev-dependencies]

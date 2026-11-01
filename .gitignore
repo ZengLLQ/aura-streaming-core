@@ -1,0 +1,11 @@
+# Aptos & Move build artifacts
+build/
+.aptos/
+
+# Secrets and environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
